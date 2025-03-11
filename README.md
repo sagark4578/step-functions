@@ -34,64 +34,58 @@ cd aws-step-functions-terraform
 
 Configure Terraform
 Initialize Terraform
-bash
-Copy
-Edit
+
 terraform init
+
 Plan the deployment
-bash
-Copy
-Edit
+
 terraform plan
+
 Apply the changes
-bash
-Copy
-Edit
+
 terraform apply -auto-approve
+
 Verify Deployment
+
 Navigate to AWS Console → Step Functions
+
 Check the created state machine
+
 Trigger a new execution and monitor the workflow
+
 🏗️ Deployment
 This project supports CI/CD deployment using:
 
 GitHub Actions
 AWS CodePipeline
-🤝 Contributing
+
+########🤝 Contributing#########
 We welcome contributions! Please follow these steps:
 
-Fork the repository
+########Fork the repository########
 Click the "Fork" button at the top-right to create your own copy.
 
 Clone your forked repository
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/aws-step-functions-terraform.git
+git clone https://github.com/sagark4578/step-functions.git
 cd aws-step-functions-terraform
+
 Create a new branch for your feature/fix
 
-bash
-Copy
-Edit
+
 git checkout -b feature-name
 Make your changes and commit them
 
-bash
-Copy
-Edit
+
 git add .
 git commit -m "Added a new feature for Step Functions"
 Push to your branch
 
-bash
-Copy
-Edit
+
 git push origin feature-name
 Create a Pull Request (PR)
 
-Go to the original repository: https://github.com/your-org/aws-step-functions-terraform
+Go to the original repository: https://github.com/sagark4578/step-functions
 Click on "Pull Requests" → "New Pull Request"
 Select your branch and submit the PR
 Wait for review and collaborate with maintainers
